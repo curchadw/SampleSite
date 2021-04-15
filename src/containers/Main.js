@@ -1,12 +1,16 @@
 import React from 'react'
-import Menu from '../components/Menu.js'
+import Header from '../components/Header'
+
+
 
 
 const Main = () =>{
-  const name = 'Curtis'
-  return(<div>
-           <Menu name={name} />
-       </div>)
+  
+  return(
+    <div>
+       <Header />
+    </div>
+       )
   
 
 }
