@@ -9,9 +9,9 @@ class Topbar extends Component{
     return(
       <div>
         <header className='main_header'>
-        <nav>
-          <ul><li></li></ul>
-        </nav>
+        <div className='name'>
+          <p>Curtis Chadwell</p>
+        </div>
         </header>
       </div>
     )

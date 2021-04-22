@@ -4,3 +4,9 @@
   background-color: red;
   padding: 5%;
 }
+
+
+.name p{
+  font-size: 4em;
+  text-align: center;
+}
