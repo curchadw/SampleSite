@@ -1,5 +1,10 @@
 body{
   background-color: black;
-  font-family: 'Dokdo', cursive;
+  font-family: 'Ubuntu', sans-serif;
 
+}
+
+
+div.container-fluid{
+  padding: 0
 }
