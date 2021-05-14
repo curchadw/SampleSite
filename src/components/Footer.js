@@ -10,7 +10,9 @@ class Footer extends Component{
     return(
       <div>
         <footer className='main_footer'>
-          
+        <p>Facebook</p>
+        <p>LinkedIn</p>
+        <p>Twitter</p>
         </footer>
       </div>
     )
