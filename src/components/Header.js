@@ -2,6 +2,14 @@ import React, {Component} from 'react'
 import '../styles/header.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import About from './About';
+import Education from './Education';
 
 class Header extends Component{
   
@@ -9,6 +17,7 @@ class Header extends Component{
   render(){
    
     return(
+    <Router>
       <div>
         <header className='main_header'>
           
@@ -19,19 +28,29 @@ class Header extends Component{
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link href="#about_me">About Me</Nav.Link>
-                <Nav.Link href="#education">Education</Nav.Link>
-                <Nav.Link href="#projects">Projects</Nav.Link>
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About Me</Link>
+                <Link to="/education">Education</Link>
+                <Link to="/projects">Projects</Link>
               </Nav>
             </Navbar.Collapse>
            
           </Navbar>
-          
-        <div className='name'>
-
-        </div>
+         
         </header>
+        <Switch>
+          <Route path="/">
+            <About />
+          </Route>
+          <Route path="/education">
+            <Education />
+          </Route>
+          {/* <Route path="/projects">
+            <Projects />
+          </Route> */}
+        </Switch>
       </div>
+    </Router>
     )
   }
 }

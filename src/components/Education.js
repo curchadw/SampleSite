@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import Schools from './Schools'
 export default class Education extends Component{
     
     render(){

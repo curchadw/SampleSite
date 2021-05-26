@@ -6,6 +6,11 @@ body{
 }
 
 
+*{
+  margin: 0;
+}
+
+
 div.container-fluid{
   padding: 0
 }

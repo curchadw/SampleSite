@@ -9,11 +9,13 @@ import About from '../components/About'
 const Main = () =>{
   
   return(
-    <div id='page'>
-       <Header />
-       <About />
-       <Footer />
-    </div>
+   
+      <div id='page'>
+         <Header />
+         <About />
+         <Footer />
+      </div>
+   
        )
   
 
