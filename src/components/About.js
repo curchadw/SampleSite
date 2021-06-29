@@ -15,7 +15,7 @@ export default class About extends Component{
            </div>
            <div className='para_right'>
             <h3 className='greet'>Greetings</h3>
-            <p>Experience in Ruby on Rails, JavaScript, and React/Redux and a background in customer service. My perpetual curiosity
+            <p>Experienced in Ruby on Rails, JavaScript, and React/Redux and a background in customer service. My perpetual curiosity
 to understand how things work led me to software development. With empathy and strong communication skills, I'm able
 to build relationships and work with both internal and external stakeholders. My positivity, work ethic and drive helps push
 through any challenge presented to me.

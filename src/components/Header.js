@@ -39,15 +39,12 @@ class Header extends Component{
          
         </header>
         <Switch>
-          <Route path="/">
+          <Route path="/about">
             <About />
           </Route>
           <Route path="/education">
             <Education />
           </Route>
-          {/* <Route path="/projects">
-            <Projects />
-          </Route> */}
         </Switch>
       </div>
     </Router>
