@@ -5,10 +5,11 @@ import School from './School'
 export default class Schools extends Component{
     
     render(){
-        const {education} = this.props
+        const { schools } = this.props
+    
         return(
             <div>
-               {education.forEach(edu =><School edu={edu} key={edu.id} />)}
+               {schools.forEach(school => <School school={school} key={school.id} /> )}
             </div>
         )
     

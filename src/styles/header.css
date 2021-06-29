@@ -5,6 +5,10 @@
 }
 
 
+.menu > a{
+  padding: 10px;
+}
+
 .name p{
   font-size: 4em;
   text-align: center;

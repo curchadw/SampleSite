@@ -9,6 +9,7 @@ export default function School(props){
         <h3>{props.name}</h3>
         <p>{props.program}</p>
         <p>{props.years}</p>
+        <p>Testing</p>
         </div>
     )
 }
