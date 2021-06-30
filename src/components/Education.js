@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import Schools from './Schools'
+import '../styles/main.css'
+
 export default class Education extends Component{
     
     render(){
@@ -7,7 +9,7 @@ export default class Education extends Component{
                       program: `Online Software Engineering`,
                       years: `2020 - 2021`}]
         return(
-            <div>
+            <div className='container'>
                 <Schools schools={schools} /> 
             </div>
         )
